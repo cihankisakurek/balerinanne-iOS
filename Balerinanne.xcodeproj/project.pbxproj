@@ -8,12 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		770DC6DF2810939200FCCCB7 /* BalerinanneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC6DE2810939200FCCCB7 /* BalerinanneApp.swift */; };
-		770DC6E12810939200FCCCB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC6E02810939200FCCCB7 /* ContentView.swift */; };
 		770DC6E32810939200FCCCB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770DC6E22810939200FCCCB7 /* Assets.xcassets */; };
 		770DC6E62810939200FCCCB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770DC6E52810939200FCCCB7 /* Preview Assets.xcassets */; };
 		770DC6F02810939300FCCCB7 /* BalerinanneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC6EF2810939300FCCCB7 /* BalerinanneTests.swift */; };
 		770DC6FA2810939300FCCCB7 /* BalerinanneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC6F92810939300FCCCB7 /* BalerinanneUITests.swift */; };
 		770DC6FC2810939300FCCCB7 /* BalerinanneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC6FB2810939300FCCCB7 /* BalerinanneUITestsLaunchTests.swift */; };
+		770DC70A281093E400FCCCB7 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 770DC709281093E400FCCCB7 /* ComposableArchitecture */; };
+		770DC70C2810942900FCCCB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC70B2810942900FCCCB7 /* AppDelegate.swift */; };
+		770DC7102810947800FCCCB7 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC70F2810947800FCCCB7 /* CoursesView.swift */; };
+		770DC7122810948000FCCCB7 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC7112810948000FCCCB7 /* LessonView.swift */; };
+		770DC7142810948700FCCCB7 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC7132810948700FCCCB7 /* CourseView.swift */; };
+		770DC717281094D400FCCCB7 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC716281094D400FCCCB7 /* AuthenticationView.swift */; };
+		770DC719281094DB00FCCCB7 /* UserSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC718281094DB00FCCCB7 /* UserSettingsView.swift */; };
+		770DC71B281094E100FCCCB7 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC71A281094E100FCCCB7 /* UserView.swift */; };
+		770DC71D281094E800FCCCB7 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC71C281094E800FCCCB7 /* RegistrationView.swift */; };
+		770DC7202810952800FCCCB7 /* RegistrationReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC71F2810952800FCCCB7 /* RegistrationReducer.swift */; };
+		770DC7222810953F00FCCCB7 /* AppReducers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC7212810953F00FCCCB7 /* AppReducers.swift */; };
+		770DC7242810954C00FCCCB7 /* AppUserReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC7232810954C00FCCCB7 /* AppUserReducer.swift */; };
+		770DC7262810955700FCCCB7 /* AuthenticationReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC7252810955700FCCCB7 /* AuthenticationReducer.swift */; };
+		770DC72C2810957D00FCCCB7 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC7282810957D00FCCCB7 /* AppUser.swift */; };
+		770DC72D2810957D00FCCCB7 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC7292810957D00FCCCB7 /* App.swift */; };
+		770DC72E2810957D00FCCCB7 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC72A2810957D00FCCCB7 /* Registration.swift */; };
+		770DC72F2810957D00FCCCB7 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC72B2810957D00FCCCB7 /* Authentication.swift */; };
+		770DC7312810959B00FCCCB7 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC7302810959B00FCCCB7 /* Course.swift */; };
+		770DC733281095B500FCCCB7 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC732281095B500FCCCB7 /* Lesson.swift */; };
+		770DC7352810961800FCCCB7 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC7342810961800FCCCB7 /* Functions.swift */; };
+		770DC738281096A800FCCCB7 /* RainForest.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 770DC737281096A800FCCCB7 /* RainForest.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +56,6 @@
 /* Begin PBXFileReference section */
 		770DC6DB2810939200FCCCB7 /* Balerinanne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Balerinanne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		770DC6DE2810939200FCCCB7 /* BalerinanneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalerinanneApp.swift; sourceTree = "<group>"; };
-		770DC6E02810939200FCCCB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		770DC6E22810939200FCCCB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		770DC6E52810939200FCCCB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		770DC6EB2810939200FCCCB7 /* BalerinanneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BalerinanneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +63,26 @@
 		770DC6F52810939300FCCCB7 /* BalerinanneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BalerinanneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		770DC6F92810939300FCCCB7 /* BalerinanneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalerinanneUITests.swift; sourceTree = "<group>"; };
 		770DC6FB2810939300FCCCB7 /* BalerinanneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalerinanneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		770DC70B2810942900FCCCB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		770DC70F2810947800FCCCB7 /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
+		770DC7112810948000FCCCB7 /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
+		770DC7132810948700FCCCB7 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		770DC716281094D400FCCCB7 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		770DC718281094DB00FCCCB7 /* UserSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsView.swift; sourceTree = "<group>"; };
+		770DC71A281094E100FCCCB7 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		770DC71C281094E800FCCCB7 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		770DC71F2810952800FCCCB7 /* RegistrationReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationReducer.swift; sourceTree = "<group>"; };
+		770DC7212810953F00FCCCB7 /* AppReducers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducers.swift; sourceTree = "<group>"; };
+		770DC7232810954C00FCCCB7 /* AppUserReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserReducer.swift; sourceTree = "<group>"; };
+		770DC7252810955700FCCCB7 /* AuthenticationReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationReducer.swift; sourceTree = "<group>"; };
+		770DC7282810957D00FCCCB7 /* AppUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		770DC7292810957D00FCCCB7 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		770DC72A2810957D00FCCCB7 /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		770DC72B2810957D00FCCCB7 /* Authentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		770DC7302810959B00FCCCB7 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		770DC732281095B500FCCCB7 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		770DC7342810961800FCCCB7 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		770DC737281096A800FCCCB7 /* RainForest.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = RainForest.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				770DC70A281093E400FCCCB7 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +134,10 @@
 		770DC6DD2810939200FCCCB7 /* Balerinanne */ = {
 			isa = PBXGroup;
 			children = (
+				770DC736281096A000FCCCB7 /* Videos */,
+				770DC70D2810946200FCCCB7 /* Views */,
+				770DC70B2810942900FCCCB7 /* AppDelegate.swift */,
 				770DC6DE2810939200FCCCB7 /* BalerinanneApp.swift */,
-				770DC6E02810939200FCCCB7 /* ContentView.swift */,
 				770DC6E22810939200FCCCB7 /* Assets.xcassets */,
 				770DC6E42810939200FCCCB7 /* Preview Content */,
 			);
@@ -127,6 +169,71 @@
 			path = BalerinanneUITests;
 			sourceTree = "<group>";
 		};
+		770DC70D2810946200FCCCB7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				770DC7272810956200FCCCB7 /* Modules */,
+				770DC71E2810951C00FCCCB7 /* Reducers */,
+				770DC715281094C900FCCCB7 /* UserView */,
+				770DC70E2810947400FCCCB7 /* CoursesView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		770DC70E2810947400FCCCB7 /* CoursesView */ = {
+			isa = PBXGroup;
+			children = (
+				770DC70F2810947800FCCCB7 /* CoursesView.swift */,
+				770DC7112810948000FCCCB7 /* LessonView.swift */,
+				770DC7132810948700FCCCB7 /* CourseView.swift */,
+			);
+			path = CoursesView;
+			sourceTree = "<group>";
+		};
+		770DC715281094C900FCCCB7 /* UserView */ = {
+			isa = PBXGroup;
+			children = (
+				770DC716281094D400FCCCB7 /* AuthenticationView.swift */,
+				770DC718281094DB00FCCCB7 /* UserSettingsView.swift */,
+				770DC71A281094E100FCCCB7 /* UserView.swift */,
+				770DC71C281094E800FCCCB7 /* RegistrationView.swift */,
+			);
+			path = UserView;
+			sourceTree = "<group>";
+		};
+		770DC71E2810951C00FCCCB7 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				770DC71F2810952800FCCCB7 /* RegistrationReducer.swift */,
+				770DC7212810953F00FCCCB7 /* AppReducers.swift */,
+				770DC7232810954C00FCCCB7 /* AppUserReducer.swift */,
+				770DC7252810955700FCCCB7 /* AuthenticationReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		770DC7272810956200FCCCB7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				770DC7292810957D00FCCCB7 /* App.swift */,
+				770DC7282810957D00FCCCB7 /* AppUser.swift */,
+				770DC72B2810957D00FCCCB7 /* Authentication.swift */,
+				770DC72A2810957D00FCCCB7 /* Registration.swift */,
+				770DC7302810959B00FCCCB7 /* Course.swift */,
+				770DC732281095B500FCCCB7 /* Lesson.swift */,
+				770DC7342810961800FCCCB7 /* Functions.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		770DC736281096A000FCCCB7 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				770DC737281096A800FCCCB7 /* RainForest.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +250,9 @@
 			dependencies = (
 			);
 			name = Balerinanne;
+			packageProductDependencies = (
+				770DC709281093E400FCCCB7 /* ComposableArchitecture */,
+			);
 			productName = Balerinanne;
 			productReference = 770DC6DB2810939200FCCCB7 /* Balerinanne.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +325,9 @@
 				Base,
 			);
 			mainGroup = 770DC6D22810939200FCCCB7;
+			packageReferences = (
+				770DC708281093E400FCCCB7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 770DC6DC2810939200FCCCB7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				770DC6E62810939200FCCCB7 /* Preview Assets.xcassets in Resources */,
+				770DC738281096A800FCCCB7 /* RainForest.mp4 in Resources */,
 				770DC6E32810939200FCCCB7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +371,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				770DC6E12810939200FCCCB7 /* ContentView.swift in Sources */,
+				770DC7312810959B00FCCCB7 /* Course.swift in Sources */,
+				770DC72C2810957D00FCCCB7 /* AppUser.swift in Sources */,
+				770DC70C2810942900FCCCB7 /* AppDelegate.swift in Sources */,
+				770DC7352810961800FCCCB7 /* Functions.swift in Sources */,
 				770DC6DF2810939200FCCCB7 /* BalerinanneApp.swift in Sources */,
+				770DC72D2810957D00FCCCB7 /* App.swift in Sources */,
+				770DC7262810955700FCCCB7 /* AuthenticationReducer.swift in Sources */,
+				770DC717281094D400FCCCB7 /* AuthenticationView.swift in Sources */,
+				770DC71D281094E800FCCCB7 /* RegistrationView.swift in Sources */,
+				770DC733281095B500FCCCB7 /* Lesson.swift in Sources */,
+				770DC71B281094E100FCCCB7 /* UserView.swift in Sources */,
+				770DC72F2810957D00FCCCB7 /* Authentication.swift in Sources */,
+				770DC72E2810957D00FCCCB7 /* Registration.swift in Sources */,
+				770DC7242810954C00FCCCB7 /* AppUserReducer.swift in Sources */,
+				770DC7202810952800FCCCB7 /* RegistrationReducer.swift in Sources */,
+				770DC7142810948700FCCCB7 /* CourseView.swift in Sources */,
+				770DC7222810953F00FCCCB7 /* AppReducers.swift in Sources */,
+				770DC7122810948000FCCCB7 /* LessonView.swift in Sources */,
+				770DC719281094DB00FCCCB7 /* UserSettingsView.swift in Sources */,
+				770DC7102810947800FCCCB7 /* CoursesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +709,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		770DC708281093E400FCCCB7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cihankisakurek/swift-composable-architecture.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		770DC709281093E400FCCCB7 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 770DC708281093E400FCCCB7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 770DC6D32810939200FCCCB7 /* Project object */;
 }
