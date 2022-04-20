@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		770DC6DF2810939200FCCCB7 /* BalerinanneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC6DE2810939200FCCCB7 /* BalerinanneApp.swift */; };
+		770DC6E12810939200FCCCB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC6E02810939200FCCCB7 /* ContentView.swift */; };
+		770DC6E32810939200FCCCB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770DC6E22810939200FCCCB7 /* Assets.xcassets */; };
+		770DC6E62810939200FCCCB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770DC6E52810939200FCCCB7 /* Preview Assets.xcassets */; };
+		770DC6F02810939300FCCCB7 /* BalerinanneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC6EF2810939300FCCCB7 /* BalerinanneTests.swift */; };
+		770DC6FA2810939300FCCCB7 /* BalerinanneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC6F92810939300FCCCB7 /* BalerinanneUITests.swift */; };
+		770DC6FC2810939300FCCCB7 /* BalerinanneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DC6FB2810939300FCCCB7 /* BalerinanneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		770DC6EC2810939200FCCCB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 770DC6D32810939200FCCCB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 770DC6DA2810939200FCCCB7;
+			remoteInfo = Balerinanne;
+		};
+		770DC6F62810939300FCCCB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 770DC6D32810939200FCCCB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 770DC6DA2810939200FCCCB7;
+			remoteInfo = Balerinanne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		770DC6DB2810939200FCCCB7 /* Balerinanne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Balerinanne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		770DC6DE2810939200FCCCB7 /* BalerinanneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalerinanneApp.swift; sourceTree = "<group>"; };
+		770DC6E02810939200FCCCB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		770DC6E22810939200FCCCB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		770DC6E52810939200FCCCB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		770DC6EB2810939200FCCCB7 /* BalerinanneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BalerinanneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		770DC6EF2810939300FCCCB7 /* BalerinanneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalerinanneTests.swift; sourceTree = "<group>"; };
+		770DC6F52810939300FCCCB7 /* BalerinanneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BalerinanneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		770DC6F92810939300FCCCB7 /* BalerinanneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalerinanneUITests.swift; sourceTree = "<group>"; };
+		770DC6FB2810939300FCCCB7 /* BalerinanneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalerinanneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		770DC6D82810939200FCCCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770DC6E82810939200FCCCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770DC6F22810939300FCCCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		770DC6D22810939200FCCCB7 = {
+			isa = PBXGroup;
+			children = (
+				770DC6DD2810939200FCCCB7 /* Balerinanne */,
+				770DC6EE2810939300FCCCB7 /* BalerinanneTests */,
+				770DC6F82810939300FCCCB7 /* BalerinanneUITests */,
+				770DC6DC2810939200FCCCB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		770DC6DC2810939200FCCCB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				770DC6DB2810939200FCCCB7 /* Balerinanne.app */,
+				770DC6EB2810939200FCCCB7 /* BalerinanneTests.xctest */,
+				770DC6F52810939300FCCCB7 /* BalerinanneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		770DC6DD2810939200FCCCB7 /* Balerinanne */ = {
+			isa = PBXGroup;
+			children = (
+				770DC6DE2810939200FCCCB7 /* BalerinanneApp.swift */,
+				770DC6E02810939200FCCCB7 /* ContentView.swift */,
+				770DC6E22810939200FCCCB7 /* Assets.xcassets */,
+				770DC6E42810939200FCCCB7 /* Preview Content */,
+			);
+			path = Balerinanne;
+			sourceTree = "<group>";
+		};
+		770DC6E42810939200FCCCB7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				770DC6E52810939200FCCCB7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		770DC6EE2810939300FCCCB7 /* BalerinanneTests */ = {
+			isa = PBXGroup;
+			children = (
+				770DC6EF2810939300FCCCB7 /* BalerinanneTests.swift */,
+			);
+			path = BalerinanneTests;
+			sourceTree = "<group>";
+		};
+		770DC6F82810939300FCCCB7 /* BalerinanneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				770DC6F92810939300FCCCB7 /* BalerinanneUITests.swift */,
+				770DC6FB2810939300FCCCB7 /* BalerinanneUITestsLaunchTests.swift */,
+			);
+			path = BalerinanneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		770DC6DA2810939200FCCCB7 /* Balerinanne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 770DC6FF2810939300FCCCB7 /* Build configuration list for PBXNativeTarget "Balerinanne" */;
+			buildPhases = (
+				770DC6D72810939200FCCCB7 /* Sources */,
+				770DC6D82810939200FCCCB7 /* Frameworks */,
+				770DC6D92810939200FCCCB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Balerinanne;
+			productName = Balerinanne;
+			productReference = 770DC6DB2810939200FCCCB7 /* Balerinanne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		770DC6EA2810939200FCCCB7 /* BalerinanneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 770DC7022810939300FCCCB7 /* Build configuration list for PBXNativeTarget "BalerinanneTests" */;
+			buildPhases = (
+				770DC6E72810939200FCCCB7 /* Sources */,
+				770DC6E82810939200FCCCB7 /* Frameworks */,
+				770DC6E92810939200FCCCB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				770DC6ED2810939200FCCCB7 /* PBXTargetDependency */,
+			);
+			name = BalerinanneTests;
+			productName = BalerinanneTests;
+			productReference = 770DC6EB2810939200FCCCB7 /* BalerinanneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		770DC6F42810939300FCCCB7 /* BalerinanneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 770DC7052810939300FCCCB7 /* Build configuration list for PBXNativeTarget "BalerinanneUITests" */;
+			buildPhases = (
+				770DC6F12810939300FCCCB7 /* Sources */,
+				770DC6F22810939300FCCCB7 /* Frameworks */,
+				770DC6F32810939300FCCCB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				770DC6F72810939300FCCCB7 /* PBXTargetDependency */,
+			);
+			name = BalerinanneUITests;
+			productName = BalerinanneUITests;
+			productReference = 770DC6F52810939300FCCCB7 /* BalerinanneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		770DC6D32810939200FCCCB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					770DC6DA2810939200FCCCB7 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					770DC6EA2810939200FCCCB7 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 770DC6DA2810939200FCCCB7;
+					};
+					770DC6F42810939300FCCCB7 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 770DC6DA2810939200FCCCB7;
+					};
+				};
+			};
+			buildConfigurationList = 770DC6D62810939200FCCCB7 /* Build configuration list for PBXProject "Balerinanne" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 770DC6D22810939200FCCCB7;
+			productRefGroup = 770DC6DC2810939200FCCCB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				770DC6DA2810939200FCCCB7 /* Balerinanne */,
+				770DC6EA2810939200FCCCB7 /* BalerinanneTests */,
+				770DC6F42810939300FCCCB7 /* BalerinanneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		770DC6D92810939200FCCCB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770DC6E62810939200FCCCB7 /* Preview Assets.xcassets in Resources */,
+				770DC6E32810939200FCCCB7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770DC6E92810939200FCCCB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770DC6F32810939300FCCCB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		770DC6D72810939200FCCCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770DC6E12810939200FCCCB7 /* ContentView.swift in Sources */,
+				770DC6DF2810939200FCCCB7 /* BalerinanneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770DC6E72810939200FCCCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770DC6F02810939300FCCCB7 /* BalerinanneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770DC6F12810939300FCCCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770DC6FC2810939300FCCCB7 /* BalerinanneUITestsLaunchTests.swift in Sources */,
+				770DC6FA2810939300FCCCB7 /* BalerinanneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		770DC6ED2810939200FCCCB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 770DC6DA2810939200FCCCB7 /* Balerinanne */;
+			targetProxy = 770DC6EC2810939200FCCCB7 /* PBXContainerItemProxy */;
+		};
+		770DC6F72810939300FCCCB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 770DC6DA2810939200FCCCB7 /* Balerinanne */;
+			targetProxy = 770DC6F62810939300FCCCB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		770DC6FD2810939300FCCCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		770DC6FE2810939300FCCCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		770DC7002810939300FCCCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Balerinanne/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rocks.cihan.Balerinanne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		770DC7012810939300FCCCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Balerinanne/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rocks.cihan.Balerinanne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		770DC7032810939300FCCCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rocks.cihan.BalerinanneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Balerinanne.app/Balerinanne";
+			};
+			name = Debug;
+		};
+		770DC7042810939300FCCCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rocks.cihan.BalerinanneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Balerinanne.app/Balerinanne";
+			};
+			name = Release;
+		};
+		770DC7062810939300FCCCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rocks.cihan.BalerinanneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Balerinanne;
+			};
+			name = Debug;
+		};
+		770DC7072810939300FCCCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rocks.cihan.BalerinanneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Balerinanne;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		770DC6D62810939200FCCCB7 /* Build configuration list for PBXProject "Balerinanne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770DC6FD2810939300FCCCB7 /* Debug */,
+				770DC6FE2810939300FCCCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		770DC6FF2810939300FCCCB7 /* Build configuration list for PBXNativeTarget "Balerinanne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770DC7002810939300FCCCB7 /* Debug */,
+				770DC7012810939300FCCCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		770DC7022810939300FCCCB7 /* Build configuration list for PBXNativeTarget "BalerinanneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770DC7032810939300FCCCB7 /* Debug */,
+				770DC7042810939300FCCCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		770DC7052810939300FCCCB7 /* Build configuration list for PBXNativeTarget "BalerinanneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770DC7062810939300FCCCB7 /* Debug */,
+				770DC7072810939300FCCCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 770DC6D32810939200FCCCB7 /* Project object */;
+}
